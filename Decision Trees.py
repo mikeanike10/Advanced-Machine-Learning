@@ -3,20 +3,12 @@
 """
 Created on Tue Oct 31 10:57:03 2023
 
-@author: arthurglass
+@author: Michael Glass
 """
 
 # INTENT: System, graphics, file locations prepared AND save_fig() defined 
 
 # Implementation of A. Geron, edited by Eric Braude
-
-# Python ≥3.5 is required
-import sys  #  constants, functions etc. of the Python interpreter
-assert sys.version_info >= (3, 5)
-
-# Scikit-Learn ≥0.20 is required
-import sklearn
-assert sklearn.__version__ >= "0.20"
 
 # Common imports
 import numpy as np
